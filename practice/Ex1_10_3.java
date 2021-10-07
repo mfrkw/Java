@@ -15,25 +15,17 @@
 ----------------------------------------------------*/
 class Ex1_10_3 {
 	public static void main (String[] args) {
-		for( int i = 0; i< 9 ; i ++){
+		
+		String display = "";
+		for( int i = 0; i<= 9 ; i ++){
 			display = "";
-			for (int j = 0; j < 9 ; j ++)[
-				]
+			for (int j = 0; j <= 9 ; j ++){
+				display = display + i + j + " ";
+			}
+				System.out.println(display);
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 }
+
+
+	
