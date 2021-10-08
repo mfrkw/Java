@@ -33,7 +33,8 @@ class Ex1_12_1 {
 			
 			System.out.println("優秀です！");
 			
-		}else{
+		}
+		if(point == 100){
 		
 		System.out.println("満点だったので宿題免除です！！");
 		}
