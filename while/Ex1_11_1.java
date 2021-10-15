@@ -7,6 +7,7 @@ class Ex1_11_1 {
 	public static void main (String[] args) {
 	  
 	  int dice = 0 ;
+	  
 	  dice = 1 + (int)(Math.random() * 6.0);
 	  System.out.println(dice);
 	  

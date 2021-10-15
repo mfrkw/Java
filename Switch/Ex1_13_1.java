@@ -19,6 +19,7 @@ public class Ex1_13_1 {
 		final String Message_B = "あなたはマイペースな性格の方ですね?" ; 
 		final String Message_O = "あなたは大雑把な性格ですね?" ;
 		final String Message_AB = "あなたは天才肌な方ですね?" ;
+		final String Message_default = "数字の1～4で答えてください" ;
 	
 		switch (bloodTypeNumber){
 		  
@@ -39,7 +40,7 @@ public class Ex1_13_1 {
 				break;
 				
 			default:
-				System.out.println("数字の1～4で答えてください");
+				System.out.println(Message_default);
 				break;
 			
 		}

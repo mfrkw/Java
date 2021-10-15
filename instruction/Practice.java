@@ -10,6 +10,7 @@ public class Practice {
     
     String ageString = new java.util.Scanner(System.in).nextLine();
     
+    
     int age = Integer.parseInt(ageString);
     
     int fortune = new java.util.Random().nextInt(4);   // nextInt(90)で指定することで　0<90の数値をランダムに取る
